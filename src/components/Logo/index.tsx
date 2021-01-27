@@ -6,7 +6,7 @@ interface LogoProps extends WithTheme {
 }
 
 export const Logo = styled.img<LogoProps>`
-  width: 40vw;
-  max-width: 100px;
+  width: 60vw;
+  max-width: 180px;
   content: url(${({ dark, theme }: LogoProps) => (dark ? theme.logo.dark : theme.logo.light)});
 `;

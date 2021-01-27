@@ -3,8 +3,8 @@ import { colors } from './colors';
 
 export const theme: Theme = {
   logo: {
-    dark: '/img/logo-dark.svg',
-    light: '/img/logo-white.svg',
+    dark: '/img/Felipe.Dev-logo.png',
+    light: '/img/Felipe.Dev-logo.png',
   },
 
   colors: {
