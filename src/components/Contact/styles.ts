@@ -58,6 +58,10 @@ export const HireMeEmail = styled.a<HireMeEmailProps>`
       width: 100%;
     }
   }
+
+  @media (max-width: ${({ theme }: HireMeContainerProps) => theme.breakpoints.xs}) {
+    font-size: ${({ theme }: HireMeEmailProps) => theme.fontSizes.large};
+  }
 `;
 
 export const HireMeTextContainer = styled.div<HireMeTextContainerProps>`

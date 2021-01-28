@@ -17,4 +17,12 @@ export const experiences: Experience[] = [
       { title: 'SQLServer' },
     ],
   },
+  {
+    company: 'uDNA',
+    jobTitle: 'Full-Stack Developer',
+    startDate: 'Mar/20',
+    endDate: 'Sep/20',
+    description: 'Development in React.js and React Native.',
+    techs: [{ title: 'React.js' }, { title: 'React Native' }],
+  },
 ];
