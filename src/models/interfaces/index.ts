@@ -46,9 +46,10 @@ interface ColorShade {
   darker?: string;
 }
 
-export interface Language {
+export interface Technologies {
   title: string;
-  years: number;
+  years?: number;
+  months?: number;
   iconUrl: string;
 }
 

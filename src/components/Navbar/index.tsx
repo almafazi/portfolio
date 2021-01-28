@@ -17,11 +17,11 @@ export const Navbar = () => {
         <a onClick={() => open && setOpen(!open)} href='#techs'>
           Techs
         </a>
-        <a onClick={() => open && setOpen(!open)} href='#about'>
-          About
-        </a>
         <a onClick={() => open && setOpen(!open)} href='#experiences'>
           Experiences
+        </a>
+        <a onClick={() => open && setOpen(!open)} href='#about'>
+          About
         </a>
       </S.NavList>
       <S.ButtonLink onClick={() => open && setOpen(!open)} href='#contact' dark={!open}>
