@@ -5,6 +5,7 @@ import { Experiences } from 'components/Experiences';
 
 import { MainContainer } from 'shared/mainContainer';
 import { Contact } from 'components/Contact';
+import { Footer } from 'components/Footer';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Techs />
       <Experiences />
       <Contact />
+      <Footer />
     </MainContainer>
   );
 }
