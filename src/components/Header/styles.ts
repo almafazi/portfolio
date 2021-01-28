@@ -22,11 +22,11 @@ export const HeaderContainer = styled.header<HeroContainerProps>`
     background-repeat: repeat;
     display: block;
     width: 40vw;
-    max-width: 300px;
+    max-width: 400px;
     height: 70px;
     position: absolute;
     left: 0;
-    bottom: -50px;
+    bottom: -55px;
 
     @media (min-width: ${({ theme }: HeroContainerProps) => theme.breakpoints.sm}) {
       width: 150px;
@@ -36,6 +36,19 @@ export const HeaderContainer = styled.header<HeroContainerProps>`
     @media (min-width: ${({ theme }: HeroContainerProps) => theme.breakpoints.lg}) {
       width: 100%;
       bottom: 0;
+    }
+
+    @media (max-width: ${({ theme }: HeroContainerProps) => theme.breakpoints.sl}) {
+      bottom: -30px;
+    }
+
+    @media (max-width: ${({ theme }: HeroContainerProps) => theme.breakpoints.xl}) {
+      bottom: -50px;
+    }
+
+    @media (max-width: ${({ theme }: HeroDrawProps) => theme.breakpoints.xs}) {
+      bottom: -75px;
+      width: 100%;
     }
   }
 
@@ -50,6 +63,7 @@ export const HeroTextContainer = styled.div<HeroTextContainerProps>`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
   @media (min-width: ${({ theme }: HeroTextContainerProps) => theme.breakpoints.sm}) {
     align-items: flex-start;
@@ -57,10 +71,20 @@ export const HeroTextContainer = styled.div<HeroTextContainerProps>`
   }
 `;
 
+export const HeroTitle = styled.h1<HeroTextProps>`
+  font-weight: 600;
+  font-size: ${({ theme }: HeroTextProps) => theme.fontSizes.extraLarge};
+  color: ${({ theme }: HeroTextProps) => theme.colors.white};
+`;
+
 export const HeroText = styled.h1<HeroTextProps>`
   font-weight: 600;
   font-size: ${({ theme }: HeroTextProps) => theme.fontSizes.extraLarge};
   color: ${({ theme }: HeroTextProps) => theme.colors.white};
+
+  @media (max-width: ${({ theme }: HeroDrawProps) => theme.breakpoints.xs}) {
+    display: none;
+  }
 `;
 
 export const HeroTextOrange = styled.span<HeroTextOrangeProps>`
@@ -69,11 +93,28 @@ export const HeroTextOrange = styled.span<HeroTextOrangeProps>`
   color: ${({ theme }: HeroTextOrangeProps) => theme.colors.secondary.main};
 `;
 
+export const HeroDescription = styled.h1<HeroTextProps>`
+  font-weight: 600;
+  font-size: ${({ theme }: HeroTextProps) => theme.fontSizes.extraLarge};
+  color: ${({ theme }: HeroTextProps) => theme.colors.white};
+  display: none;
+
+  @media (max-width: ${({ theme }: HeroDrawProps) => theme.breakpoints.xs}) {
+    display: block;
+  }
+`;
+
 export const HeroDraw = styled.img<HeroDrawProps>`
-  content: url('/img/header-draw.svg');
+  margin-top: 30px;
+
+  content: url('/img/headerImage.svg');
   display: none;
 
   @media (min-width: ${({ theme }: HeroDrawProps) => theme.breakpoints.sm}) {
     display: block;
+  }
+
+  @media (max-width: ${({ theme }: HeroDrawProps) => theme.breakpoints.lx}) {
+    display: none;
   }
 `;

@@ -3,22 +3,24 @@ import Typed from 'react-typed';
 
 import * as S from './styles';
 
-const Header = () => {
+export const Header = () => {
   return (
     <S.HeaderContainer id='header'>
       <S.HeroTextContainer>
-        <S.HeroText>
+        <S.HeroTitle>
           Hello I&apos;m <S.HeroTextOrange>Felipe Vieira</S.HeroTextOrange>
-        </S.HeroText>
+        </S.HeroTitle>
+        <S.HeroText>and I&apos;m a </S.HeroText>
+        <S.HeroDescription>Software Developer.</S.HeroDescription>
         <S.HeroText>
           <Typed
             loop
             typeSpeed={80}
             backSpeed={20}
             strings={[
-              "and I&apos;m a <span class='accent'>Web Developer.</span>",
-              "and I&apos;m a <span class='accent'>Mobile Developer.</span>",
-              "and I&apos;m a <span class='accent'>Full Stack.</span>",
+              "<span class='accent'>Web Developer.</span>",
+              "<span class='accent'>Mobile Developer.</span>",
+              "<span class='accent'>Full Stack.</span>",
             ]}
             smartBackspace
             backDelay={1000}
@@ -33,5 +35,3 @@ const Header = () => {
     </S.HeaderContainer>
   );
 };
-
-export default Header;

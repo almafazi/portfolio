@@ -8,6 +8,7 @@ interface Breakpoints {
   sm: string;
   md: string;
   lg: string;
+  lx: string;
   xl: string;
   sl: string;
 }

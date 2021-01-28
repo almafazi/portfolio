@@ -37,11 +37,6 @@ const GlobalStyles = createGlobalStyle`
       font-size: 16px;
     }
   }
-
-  main {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
 `;
 
 export default GlobalStyles;
