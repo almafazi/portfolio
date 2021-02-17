@@ -8,6 +8,8 @@ export const experiences: Experience[] = [
     description: 'Development in React.js, .NET, and React Native.',
     techs: [
       { title: 'React.js' },
+      { title: 'Styled Components' },
+      { title: 'NextJS' },
       { title: '.NET' },
       { title: 'React Native' },
       { title: 'Typescript' },
@@ -19,10 +21,10 @@ export const experiences: Experience[] = [
   },
   {
     company: 'uDNA',
-    jobTitle: 'Full-Stack Developer',
+    jobTitle: 'Frontend Developer',
     startDate: 'Mar/20',
     endDate: 'Sep/20',
-    description: 'Development in React.js and React Native.',
-    techs: [{ title: 'React.js' }, { title: 'React Native' }],
+    description: 'Development in React.js, Gatsby, React Native.',
+    techs: [{ title: 'React.js' }, { title: 'React Native' }, { title: 'Gatsby' }],
   },
 ];
