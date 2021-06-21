@@ -23,6 +23,7 @@ export const MenuIcon = styled.button<MenuIconProps>`
   position: relative;
   outline: none;
   width: 25px;
+  margin-top: 6px;
   height: 20px;
   background-color: transparent;
   justify-self: flex-end;

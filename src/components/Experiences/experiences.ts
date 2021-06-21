@@ -2,29 +2,15 @@ import { Experience } from 'models/interfaces';
 
 export const experiences: Experience[] = [
   {
-    company: 'Medicine Innovation Lab - MedSênior',
-    jobTitle: 'Full-Stack Developer',
+    company: 'Zen Financial Planner - Web & App',
+    jobTitle: 'Mobile & Web Developer',
     startDate: 'Sep/20',
-    description: 'Development in React.js, .NET, and React Native.',
+    description: 'Development in Laravel and React Native.',
     techs: [
-      { title: 'React.js' },
+      { title: 'Laravel' },
       { title: 'Styled Components' },
-      { title: 'NextJS' },
-      { title: '.NET' },
       { title: 'React Native' },
-      { title: 'Typescript' },
-      { title: 'MongoDB' },
-      { title: 'Docker' },
-      { title: 'Azure' },
-      { title: 'SQLServer' },
+      { title: 'Figma' },
     ],
-  },
-  {
-    company: 'uDNA',
-    jobTitle: 'Frontend Developer',
-    startDate: 'Mar/20',
-    endDate: 'Sep/20',
-    description: 'Development in React.js, Gatsby, React Native.',
-    techs: [{ title: 'React.js' }, { title: 'React Native' }, { title: 'Gatsby' }],
-  },
+  }
 ];

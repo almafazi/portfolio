@@ -3,14 +3,14 @@ import { SocialMediaItem } from 'models/interfaces';
 export const socialMedias: SocialMediaItem[] = [
   {
     icon: 'img/github.svg',
-    url: 'https://github.com/2lipe',
+    url: 'https://github.com/amafazi',
   },
   {
     icon: 'img/linkedin.svg',
-    url: 'https://linkedin.com/in/felipesvfx',
+    url: '#',
   },
   {
     icon: 'img/instagram.svg',
-    url: 'https://instagram.com/felipesvfx/',
+    url: 'https://instagram.com/almafazi/',
   },
 ];

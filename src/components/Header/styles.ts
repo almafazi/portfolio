@@ -21,12 +21,13 @@ export const HeaderContainer = styled.header<HeroContainerProps>`
     background: url('/img/dot.svg');
     background-repeat: repeat;
     display: block;
+    margin-top: 10px;
     width: 40vw;
     max-width: 400px;
     height: 70px;
     position: absolute;
     left: 0;
-    bottom: -55px;
+    bottom: -65px;
 
     @media (min-width: ${({ theme }: HeroContainerProps) => theme.breakpoints.sm}) {
       width: 150px;
@@ -35,19 +36,19 @@ export const HeaderContainer = styled.header<HeroContainerProps>`
 
     @media (min-width: ${({ theme }: HeroContainerProps) => theme.breakpoints.lg}) {
       width: 100%;
-      bottom: 0;
+      bottom: -20px;
     }
 
     @media (max-width: ${({ theme }: HeroContainerProps) => theme.breakpoints.sl}) {
-      bottom: -30px;
+      bottom: -40px;
     }
 
     @media (max-width: ${({ theme }: HeroContainerProps) => theme.breakpoints.xl}) {
-      bottom: -50px;
+      bottom: -60px;
     }
 
     @media (max-width: ${({ theme }: HeroDrawProps) => theme.breakpoints.xs}) {
-      bottom: -75px;
+      bottom: -85px;
       width: 100%;
     }
   }

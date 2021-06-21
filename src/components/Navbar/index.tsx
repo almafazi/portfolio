@@ -8,7 +8,7 @@ export const Navbar = () => {
 
   return (
     <S.NavbarContainer open={open}>
-      <Logo dark={!open} alt="That's my logo Felipe.Dev" />
+      <Logo dark={!open} alt="That's my logo Almafazi" />
       <S.MenuIcon aria-label='Hamburger menu' onClick={() => setOpen(!open)} open={open} />
       <S.NavList open={open}>
         <a onClick={() => open && setOpen(!open)} href='#header'>

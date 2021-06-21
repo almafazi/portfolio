@@ -9,7 +9,7 @@ import * as S from './styles';
 export const Techs = () => {
   return (
     <S.LanguagesContainer id='techs'>
-      <SectionTitle>Techs</SectionTitle>
+      <SectionTitle>Tech Stack</SectionTitle>
       <S.CardsContainer>
         <S.HorizontalScrollContainer>
           {techsItems.map(item => (

@@ -8,7 +8,7 @@ export const Header = () => {
     <S.HeaderContainer id='header'>
       <S.HeroTextContainer>
         <S.HeroTitle>
-          Hello I&apos;m <S.HeroTextOrange>Felipe Vieira</S.HeroTextOrange>
+          Hello I&apos;m <S.HeroTextOrange>Almafazi</S.HeroTextOrange>
         </S.HeroTitle>
         <S.HeroText>and I&apos;m a </S.HeroText>
         <S.HeroDescription>Software Developer.</S.HeroDescription>
